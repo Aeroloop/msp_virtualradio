@@ -3,7 +3,9 @@
 This project is a radio receiver emulation to be used to connect a radio
 controller to SITL flight controller. 
 This code originates from
-[cs8425](https://gist.github.com/cs8425/51893e2f90812aa3831558503597fa1a).
+[cs8425](https://gist.github.com/cs8425/51893e2f90812aa3831558503597fa1a) and
+will provide a baseline implementation moving forward. At the core it seems this
+has been pulled from the Betaflight Configurator.
 
 # Pre-requirsts
 1. Clone Betaflight and compile for SITL, make TARGET=SITL
