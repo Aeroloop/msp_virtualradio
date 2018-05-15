@@ -9,7 +9,11 @@ has been pulled from the Betaflight Configurator.
 
 # Pre-requirsts
 1. Clone Betaflight and compile for SITL, make TARGET=SITL
-2. Install NodeJS version > 8
+2. [Install NodeJS](https://nodejs.org/en/download/package-manager/#debian-and-ubuntu-based-linux-distributions) version > 8
+```
+curl -sL https://deb.nodesource.com/setup_8.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 # Configuration
  
